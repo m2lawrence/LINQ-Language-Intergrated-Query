@@ -15,9 +15,7 @@ My ASP.Net App can connect to the three below:
 
 
 //----------------------------------------------
-//Use this class to do your LINQ expressions on:
+//Use the "DataContext" class to do your LINQ expressions on:
 
-		public DataClasses1DataContext() : 
-
-				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["CRUDDBConnectionString"].ConnectionString, mappingSource)
+public DataClasses1DataContext()
 //----------------------------------------------
