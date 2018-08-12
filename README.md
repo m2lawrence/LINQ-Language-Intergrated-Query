@@ -14,11 +14,8 @@ My ASP.Net App can connect to the three below:
 3. Arrays Generics, uses In Memory Objects.
 
 
-//----------------------------------------------
 //Use the "DataContext" class to do your LINQ expressions on:
-
 public DataClasses1DataContext()
-//----------------------------------------------
 
 HOW TO DO LINQ:
 // 1. Install the package LINQ.
