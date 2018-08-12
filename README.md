@@ -12,3 +12,12 @@ My ASP.Net App can connect to the three below:
 1. ADO.Net SQL, uses Databases.
 2. XPATH XSLT, uses XML documents.
 3. Arrays Generics, uses In Memory Objects.
+
+
+//----------------------------------------------
+//Use this class to do your LINQ expressions on:
+
+		public DataClasses1DataContext() : 
+
+				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["CRUDDBConnectionString"].ConnectionString, mappingSource)
+//----------------------------------------------
