@@ -19,3 +19,14 @@ My ASP.Net App can connect to the three below:
 
 public DataClasses1DataContext()
 //----------------------------------------------
+
+HOW TO DO LINQ:
+// 1. Install the package LINQ.
+
+// 2. RC Project, add, new item, Data tab, LINQ to SQL classes. Makes: DataClasses1.dbml
+
+// 3. RC DataConnections on the left, add, use wizard to make con string to your table.
+
+// 4. Drag and drop your table onto the page: DataClasses1.dbml
+
+// 5. Write your LINQ query and bind it to a GridView.
