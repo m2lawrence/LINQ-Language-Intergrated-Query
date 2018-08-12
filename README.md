@@ -14,16 +14,16 @@ My ASP.Net App can connect to the three below:
 3. Arrays Generics, uses In Memory Objects.
 
 
-//Use the "DataContext" class to do your LINQ expressions on:
+Use the "DataContext" class to do your LINQ expressions on:
 public DataClasses1DataContext()
 
 HOW TO DO LINQ:
-// 1. Install the package LINQ.
+1. Install the package LINQ.
 
-// 2. RC Project, add, new item, Data tab, LINQ to SQL classes. Makes: DataClasses1.dbml
+2. RC Project, add, new item, Data tab, LINQ to SQL classes. Makes: DataClasses1.dbml
 
-// 3. RC DataConnections on the left, add, use wizard to make con string to your table.
+3. RC DataConnections on the left, add, use wizard to make con string to your table.
 
-// 4. Drag and drop your table onto the page: DataClasses1.dbml
+4. Drag and drop your table onto the page: DataClasses1.dbml
 
-// 5. Write your LINQ query and bind it to a GridView.
+5. Write your LINQ query and bind it to a GridView.
